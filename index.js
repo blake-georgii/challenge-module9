@@ -5,7 +5,7 @@ const fs = require('fs');
 const questions = [
     {
         type: 'input',
-        name: 'name',
+        name: 'title',
         message: 'What is your name?',
     },
     {
@@ -16,8 +16,8 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        message: 'what lsicinaiwc',
-        choices: ['apache', 'mit']
+        message: 'What license are you using?',
+        choices: ['apache', 'mit', 'GPLv2', 'Other']
     }
 ];
 
@@ -28,9 +28,9 @@ function writeToFile(fileName, data) { }
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(data => {
-        writeToFile('./dist/README.md', data);
-    });
+        .then(data => {
+            writeToFile('./dist/README.md', data);
+        });
 }
 
 // Function call to initialize app
