@@ -2,7 +2,6 @@
 // If there is no license, return an empty string
 
 function renderLicenseBadge(license) {
-
   return `![${license}](https://img.shields.io/badge/license-${license}-blue)`;
 }
 
@@ -11,27 +10,34 @@ function generateMarkdown(data) {
   return `
 # ${data.title}
 
-## License
-
-
-
+## Description
+${data.description}
 
 ## Table of Contents
-  [Description](##Description)
-  [Installation](##Installation)
-
-## Description
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
+${data.Installation}
 
 ## Usage
+${data.usage}
+
+## License
+${renderLicenseBadge(data.license)}
 
 ## Contributing
+${data.contributing}
 
 ## Tests
+${data.tests}
 
 ## Questions
-
+${data.questions}
 `;
 }
 
