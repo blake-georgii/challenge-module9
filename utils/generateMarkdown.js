@@ -22,7 +22,7 @@ ${data.description}
 - [Questions](#questions)
 
 ## Installation
-${data.Installation}
+${data.installation}
 
 ## Usage
 ${data.usage}
