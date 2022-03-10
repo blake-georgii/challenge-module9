@@ -5,26 +5,20 @@ Generates a markdown file with project information
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
+- [Walkthrough Video](#walkthrough-video)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
-## Installation
-Clone the repo and run npm i
+## Walkthrough Video
 
-## Usage
-type node index.js and fill out information, then your file will be in the dist folder
+https://user-images.githubusercontent.com/92621993/157577740-bc9a2ee9-09c3-42cc-8631-ec25fa920157.mp4
 
 ## License
 ![mit](https://img.shields.io/badge/license-mit-blue)
 
 ## Contributing
 Blake Georgii
-
-## Tests
-N/A
 
 ## Questions
 For any questions reach out to me!
